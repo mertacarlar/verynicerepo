@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const status = document.getElementById('status');
   const namesList = document.getElementById('names-list');
-
+//test
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
     const tabId = tabs[0].id;
 
